@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nm-birthday-card/static/css/main.c40a9a3d.css",
-    "main.js": "/nm-birthday-card/static/js/main.1338f3ff.js",
+    "main.js": "/nm-birthday-card/static/js/main.6fdbb91b.js",
     "reactPlayerHls.js": "/nm-birthday-card/static/js/reactPlayerHls.c595df40.chunk.js",
     "reactPlayerDash.js": "/nm-birthday-card/static/js/reactPlayerDash.9c57adf3.chunk.js",
     "reactPlayerMux.js": "/nm-birthday-card/static/js/reactPlayerMux.34b83de7.chunk.js",
@@ -17,7 +17,7 @@
     "static/js/788.634944d8.chunk.js": "/nm-birthday-card/static/js/788.634944d8.chunk.js",
     "index.html": "/nm-birthday-card/index.html",
     "main.c40a9a3d.css.map": "/nm-birthday-card/static/css/main.c40a9a3d.css.map",
-    "main.1338f3ff.js.map": "/nm-birthday-card/static/js/main.1338f3ff.js.map",
+    "main.6fdbb91b.js.map": "/nm-birthday-card/static/js/main.6fdbb91b.js.map",
     "reactPlayerHls.c595df40.chunk.js.map": "/nm-birthday-card/static/js/reactPlayerHls.c595df40.chunk.js.map",
     "reactPlayerDash.9c57adf3.chunk.js.map": "/nm-birthday-card/static/js/reactPlayerDash.9c57adf3.chunk.js.map",
     "reactPlayerMux.34b83de7.chunk.js.map": "/nm-birthday-card/static/js/reactPlayerMux.34b83de7.chunk.js.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.c40a9a3d.css",
-    "static/js/main.1338f3ff.js"
+    "static/js/main.6fdbb91b.js"
   ]
 }
