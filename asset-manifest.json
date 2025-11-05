@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/thuyhan07/nm-birthday-card.git/static/css/main.c40a9a3d.css",
+    "main.js": "/thuyhan07/nm-birthday-card.git/static/js/main.cc6d82c8.js",
+    "reactPlayerHls.js": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerHls.c595df40.chunk.js",
+    "reactPlayerDash.js": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerDash.9c57adf3.chunk.js",
+    "reactPlayerMux.js": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerMux.34b83de7.chunk.js",
+    "reactPlayerYouTube.js": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerYouTube.46d512c6.chunk.js",
+    "reactPlayerVimeo.js": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerVimeo.549576ea.chunk.js",
+    "reactPlayerWistia.js": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerWistia.ed702393.chunk.js",
+    "reactPlayerSpotify.js": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerSpotify.977fcad9.chunk.js",
+    "reactPlayerTwitch.js": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerTwitch.37479d62.chunk.js",
+    "reactPlayerTiktok.js": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerTiktok.b75624ff.chunk.js",
+    "reactPlayerPreview.js": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerPreview.cce5daf8.chunk.js",
+    "static/js/416.a853ffca.chunk.js": "/thuyhan07/nm-birthday-card.git/static/js/416.a853ffca.chunk.js",
+    "static/js/883.efef628d.chunk.js": "/thuyhan07/nm-birthday-card.git/static/js/883.efef628d.chunk.js",
+    "static/js/788.634944d8.chunk.js": "/thuyhan07/nm-birthday-card.git/static/js/788.634944d8.chunk.js",
+    "index.html": "/thuyhan07/nm-birthday-card.git/index.html",
+    "main.c40a9a3d.css.map": "/thuyhan07/nm-birthday-card.git/static/css/main.c40a9a3d.css.map",
+    "main.cc6d82c8.js.map": "/thuyhan07/nm-birthday-card.git/static/js/main.cc6d82c8.js.map",
+    "reactPlayerHls.c595df40.chunk.js.map": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerHls.c595df40.chunk.js.map",
+    "reactPlayerDash.9c57adf3.chunk.js.map": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerDash.9c57adf3.chunk.js.map",
+    "reactPlayerMux.34b83de7.chunk.js.map": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerMux.34b83de7.chunk.js.map",
+    "reactPlayerYouTube.46d512c6.chunk.js.map": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerYouTube.46d512c6.chunk.js.map",
+    "reactPlayerVimeo.549576ea.chunk.js.map": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerVimeo.549576ea.chunk.js.map",
+    "reactPlayerWistia.ed702393.chunk.js.map": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerWistia.ed702393.chunk.js.map",
+    "reactPlayerSpotify.977fcad9.chunk.js.map": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerSpotify.977fcad9.chunk.js.map",
+    "reactPlayerTwitch.37479d62.chunk.js.map": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerTwitch.37479d62.chunk.js.map",
+    "reactPlayerTiktok.b75624ff.chunk.js.map": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerTiktok.b75624ff.chunk.js.map",
+    "reactPlayerPreview.cce5daf8.chunk.js.map": "/thuyhan07/nm-birthday-card.git/static/js/reactPlayerPreview.cce5daf8.chunk.js.map",
+    "416.a853ffca.chunk.js.map": "/thuyhan07/nm-birthday-card.git/static/js/416.a853ffca.chunk.js.map",
+    "883.efef628d.chunk.js.map": "/thuyhan07/nm-birthday-card.git/static/js/883.efef628d.chunk.js.map",
+    "788.634944d8.chunk.js.map": "/thuyhan07/nm-birthday-card.git/static/js/788.634944d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c40a9a3d.css",
+    "static/js/main.cc6d82c8.js"
+  ]
+}
