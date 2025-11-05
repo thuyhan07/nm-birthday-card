@@ -12,7 +12,7 @@ let rafId;
 function App() {
   let maxVolume = 0;
   const [message, setMessage] = useState(
-    "make a wish and blow the candles :D!"
+    "make a wish and blow the candle :D!"
   );
   const [blown, setBlown] = useState(false);
   const [celebrate, setCelebrate] = useState(0);
