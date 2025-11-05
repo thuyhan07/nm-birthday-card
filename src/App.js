@@ -58,7 +58,7 @@ function App() {
       //   setBlown(true);
       // }, 500);
       setBlown(true);
-      setTimeout(setOpen(true), 1000);
+      setTimeout(() => setOpen(true), 1000);
       // setMessage("You blew out the candle!");
       console.log("Blow detected");
     }
