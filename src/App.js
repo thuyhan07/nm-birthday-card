@@ -17,7 +17,7 @@ function App() {
   const [blown, setBlown] = useState(false);
   const [celebrate, setCelebrate] = useState(0);
 
-  const VOLUME_THRESHOLD = 85; // sensitivity
+  const VOLUME_THRESHOLD = 35; // sensitivity
 
   const setupAudio = async () => {
     try {
