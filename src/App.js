@@ -16,6 +16,7 @@ function App() {
   );
   const [blown, setBlown] = useState(false);
   const [celebrate, setCelebrate] = useState(0);
+  const [open, setOpen] = useState(false);
 
   const VOLUME_THRESHOLD = 35; // sensitivity
 
@@ -57,6 +58,7 @@ function App() {
       //   setBlown(true);
       // }, 500);
       setBlown(true);
+      setTimeout(setOpen(true), 1000);
       // setMessage("You blew out the candle!");
       console.log("Blow detected");
     }
@@ -86,7 +88,7 @@ function App() {
         </div>
         <div className="cake"></div>
       </div>
-      {blown ? <div className="present-screen">
+      {blown && open ? <div className="present-screen">
         <div className="celebration-screen"><Confetti className="confetti" opacity={celebrate}/></div>
         <h1 className="bday-message">HAPPY BIRTHDAY, NINA</h1>
         <ReactPlayer src="https://www.youtube.com/watch?v=gPhskAcoTBQ" volume={1} width="100%" className="video" loop={true} onPlaying={()=> setCelebrate(1)} onPause={() => setCelebrate(0)}></ReactPlayer>
