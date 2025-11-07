@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import ReactPlayer from "react-player";
-import Confetti from 'react-confetti'
+import Confetti from "react-confetti";
 
 let audioCtx;
 let analyser;
@@ -11,9 +11,7 @@ let rafId;
 
 function App() {
   let maxVolume = 0;
-  const [message, setMessage] = useState(
-    "make a wish and blow the candle :D!"
-  );
+  const [message, setMessage] = useState("make a wish and blow the candle :D!");
   const [blown, setBlown] = useState(false);
   const [celebrate, setCelebrate] = useState(0);
   const [open, setOpen] = useState(false);
@@ -88,13 +86,34 @@ function App() {
         </div>
         <div className="cake"></div>
       </div>
-      {blown && open ? <div className="present-screen">
-        <div className="celebration-screen"><Confetti className="confetti" opacity={celebrate}/></div>
-        <h1 className="bday-message">HAPPY BIRTHDAY, NINA</h1>
-        <ReactPlayer src="https://www.youtube.com/watch?v=gPhskAcoTBQ" volume={1} width="100%" className="video" loop={true} onPlaying={()=> setCelebrate(1)} onPause={() => setCelebrate(0)}></ReactPlayer>
-        <button onClick={()=> setBlown(false)} className="replay-button">REPLAY</button>
-
-      </div> : <div></div>}
+      {blown && open ? (
+        <div className="present-screen">
+          <div className="celebration-screen">
+            <Confetti className="confetti" opacity={celebrate} />
+          </div>
+          <h1 className="bday-message">HAPPY BIRTHDAY, NINA</h1>
+          <ReactPlayer
+            src="https://www.youtube.com/watch?v=gPhskAcoTBQ"
+            volume={1}
+            width="100%"
+            className="video"
+            loop={true}
+            onPlaying={() => setCelebrate(1)}
+            onPause={() => setCelebrate(0)}
+          ></ReactPlayer>
+          <button
+            onClick={() => {
+              setBlown(false);
+              setOpen(false);
+            }}
+            className="replay-button"
+          >
+            REPLAY
+          </button>
+        </div>
+      ) : (
+        <div></div>
+      )}
     </div>
   );
 }
